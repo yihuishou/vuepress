@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>VuePress | Using Vue in Markdown</title>
+    <meta name="description" content="Vue-powered Static Site Generator">
+  <link rel="icon" href="/vuepress/logo.png">
+    
+    <link rel="preload" href="/vuepress/assets/css/0.styles.a3badf68.css" as="style"><link rel="preload" href="/vuepress/assets/js/app.d4950550.js" as="script"><link rel="preload" href="/vuepress/assets/js/1.64a2319a.js" as="script"><link rel="preload" href="/vuepress/assets/js/11.15258892.js" as="script"><link rel="preload" href="/vuepress/assets/js/12.fd1748f5.js" as="script"><link rel="prefetch" href="/vuepress/assets/js/6.7d156e8a.js"><link rel="prefetch" href="/vuepress/assets/js/2.876db2b0.js"><link rel="prefetch" href="/vuepress/assets/js/3.1efe1edf.js"><link rel="prefetch" href="/vuepress/assets/js/4.f3fb7211.js"><link rel="prefetch" href="/vuepress/assets/js/5.14f9cf23.js"><link rel="prefetch" href="/vuepress/assets/js/7.7c8f2536.js"><link rel="prefetch" href="/vuepress/assets/js/8.fcd3f296.js"><link rel="prefetch" href="/vuepress/assets/js/9.bd07bbad.js"><link rel="prefetch" href="/vuepress/assets/js/10.69ac8bc8.js">
+    <link rel="stylesheet" href="/vuepress/assets/css/0.styles.a3badf68.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/vuepress/" class="router-link-active"><!----><span class="site-name">
+      VuePress
+    </span></a><div class="links"><div class="search-box"><input autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><a href="/vuepress/guide/" class="router-link-active">
+    Guide
+  </a><a href="/vuepress/config/">
+    Config Reference
+  </a><a href="/vuepress/default-theme-config/">
+    Default Theme Config
+  </a><a href="https://github.com/vuejs/vuepress" target="_blank" class="github-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header><div class="sidebar"><nav class="nav-links"><a href="/vuepress/guide/" class="router-link-active">
+    Guide
+  </a><a href="/vuepress/config/">
+    Config Reference
+  </a><a href="/vuepress/default-theme-config/">
+    Default Theme Config
+  </a><a href="https://github.com/vuejs/vuepress" target="_blank" class="github-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav><ul><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>Guide</span><!----></p><ul class="sidebar-group-items"><li><a href="/vuepress/guide/" class="sidebar-link">Introduction</a></li><li><a href="/vuepress/guide/getting-started.html" class="sidebar-link">Getting Started</a></li><li><a href="/vuepress/guide/markdown.html" class="sidebar-link">Markdown Extensions</a></li><li><a href="/vuepress/guide/assets.html" class="sidebar-link">Asset Handling</a></li><li><a href="/vuepress/guide/using-vue.html" class="active sidebar-link">Using Vue in Markdown</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress/guide/using-vue.html#templating" class="sidebar-link">Templating</a></li><li class="sidebar-sub-header"><a href="/vuepress/guide/using-vue.html#escaping" class="sidebar-link">Escaping</a></li><li class="sidebar-sub-header"><a href="/vuepress/guide/using-vue.html#using-components" class="sidebar-link">Using Components</a></li><li class="sidebar-sub-header"><a href="/vuepress/guide/using-vue.html#script-style-hoisting" class="sidebar-link">Script &amp; Style Hoisting</a></li></ul></li><li><a href="/vuepress/guide/custom-themes.html" class="sidebar-link">Custom Themes</a></li><li><a href="/vuepress/guide/deploy.html" class="sidebar-link">Deploying</a></li></ul></div></li></ul></div><div class="page"><div class="content"><h1 id="using-vue-in-markdown"><a href="#using-vue-in-markdown" aria-hidden="true" class="header-anchor">#</a> Using Vue in Markdown</h1><h2 id="templating"><a href="#templating" aria-hidden="true" class="header-anchor">#</a> Templating</h2><h3 id="interpolation"><a href="#interpolation" aria-hidden="true" class="header-anchor">#</a> Interpolation</h3><p>Each markdown file is first compiled into HTML and then passed on as a Vue component to <code>vue-loader</code>. This means you can use Vue-style interpolation in text:</p><p><strong>Input</strong></p><pre class="language-md"><code>{{ 1 + 1 }}
+</code></pre><p><strong>Output</strong></p><pre><code>2</code></pre><h3 id="directives"><a href="#directives" aria-hidden="true" class="header-anchor">#</a> Directives</h3><p>Directives also work:</p><p><strong>Input</strong></p><pre class="language-md"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>i in 3<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{ i }} <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p><strong>Output</strong></p><pre><code><span>1 </span><span>2 </span><span>3 </span></code></pre><h3 id="access-to-site-page-data"><a href="#access-to-site-page-data" aria-hidden="true" class="header-anchor">#</a> Access to Site &amp; Page Data</h3><p>The compiled component does not have any private data but do have access to the <a href="/vuepress/guide/theming.html#site-and-page-metadata">site metadata</a>. For example:</p><p><strong>Input</strong></p><pre class="language-md"><code>{{ $page }}
+</code></pre><p><strong>Output</strong></p><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/using-vue.html&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Using Vue in Markdown&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;frontmatter&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="escaping"><a href="#escaping" aria-hidden="true" class="header-anchor">#</a> Escaping</h2><p>By default, fenced code blocks are automatically wrapped with <code>v-pre</code>. If you want to display raw mustaches or Vue-specific syntax inside inline code snippets or plain text, you need to wrap a paragraph with the <code>v-pre</code> custom container:</p><p><strong>Input</strong></p><pre class="language-md"><code>::: v-pre
+<span class="token code keyword">`{{ This will be displayed as-is }}`</span>
+:::
+</code></pre><p><strong>Output</strong></p><div><p><code>{{ This will be displayed as-is }}</code></p></div><h2 id="using-components"><a href="#using-components" aria-hidden="true" class="header-anchor">#</a> Using Components</h2><p>Any <code>*.vue</code> file found in <code>.vuepress/components</code> are automatically registered as global async components. For example:</p><pre class="language-text"><code>.
+└── .vuepress
+    └── components
+        ├── demo-1.vue
+        └── OtherComponent.vue
+</code></pre><p>Inside any markdown file you can then directly use the components (names are inferred from filenames):</p><pre class="language-md"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>demo-1</span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>OtherComponent</span><span class="token punctuation">/&gt;</span></span>
+</code></pre><p class="demo">
+  Hello this is &lt;demo-1&gt;
+</p><p class="demo">This is another component</p><div class="warning custom-block"><p class="custom-block-title">IMPORTANT</p><p>Make sure a custom component’s names either contains a hyphen or is in PascalCase. Otherwise it will be treated as an inline element and wrapped inside a <code>&lt;p&gt;</code> tag, which will lead to hydration mismatch because <code>&lt;p&gt;</code> does not allow block elements to be placed inside it.</p></div><h2 id="script-style-hoisting"><a href="#script-style-hoisting" aria-hidden="true" class="header-anchor">#</a> Script &amp; Style Hoisting</h2><p>Sometimes you may need to apply some JavaScript or CSS only to the current page. In those case you can directly write root-level <code>&lt;script&gt;</code> or <code>&lt;style&gt;</code> blocks in the markdown file, and they will be hoisted out of the compiled HTML and used as the <code>&lt;script&gt;</code> and <code>&lt;style&gt;</code> blocks for the resulting Vue single-file component.</p><p class="demo example_2DuOfB6G"></p></div><div class="content edit-link"><a href="https:/github.com/vuejs/vuepress/edit/master/docs/guide/using-vue.md" target="_blank">Edit this page</a><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div><div class="content page-nav"><p class="inner"><span class="prev">
+        ← <a href="/vuepress/guide/assets.html" class="prev">
+          Asset Handling
+        </a></span><span class="next"><a href="/vuepress/guide/custom-themes.html">
+          Custom Themes
+        </a> →
+      </span></p></div></div></div></div>
+    <script src="/vuepress/assets/js/1.64a2319a.js" defer></script><script src="/vuepress/assets/js/11.15258892.js" defer></script><script src="/vuepress/assets/js/12.fd1748f5.js" defer></script><script src="/vuepress/assets/js/app.d4950550.js" defer></script>
+  </body>
+</html>
