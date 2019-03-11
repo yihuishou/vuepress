@@ -1,40 +1,47 @@
 <p align="center">
   <a href="https://vuepress.vuejs.org/" target="_blank">
-    <img width="280" src="https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/public/hero.png" alt="logo">
+    <img width="180" src="https://raw.githubusercontent.com/vuejs/vuepress/master/packages/docs/docs/.vuepress/public/hero.png" alt="logo">
   </a>
 </p>
 
-# VuePress
+<p align="center">
+  <a href="https://npmcharts.com/compare/vuepress?minimal=true"><img src="https://img.shields.io/npm/dm/vuepress.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/v/vuepress.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://badgen.net/npm/v/vuepress/next" alt="npm next version"></a>
+  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
+  <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg" alt="vuepress channel on Discord"></a>
+</p>
 
-> Minimalistic docs generator with Vue component based layout system
+> This is the branch for `VuePress 1.x` and docs are available at https://v1.vuepress.vuejs.org.
 
-https://vuepress.vuejs.org/
+## Status: alpha
 
-## Features
+Certain combinations of plugins may not work properly, and things may change or break until we reach `beta` phase. Do not use in production yet unless you are adventurous.
 
-- [Built-in markdown extensions](https://vuepress.vuejs.org/guide/markdown.html) optimized for technical documentation
-- [Ability to leverage Vue inside markdown files](https://vuepress.vuejs.org/guide/using-vue.html)
-- [Vue-powered custom theme system](https://vuepress.vuejs.org/guide/custom-themes.html)
-- Service Worker Integration
-- Google Analytics Integration
-- A default theme with:
-  - Responsive layout
-  - Optional Homepage
-  - Automatic basic typeahead search
-  - Customizable navbar and sidebar
-  - Auto-generated GitHub link and page edit links
+For 0.x, it's moved to [0.x branch](https://github.com/vuejs/vuepress/tree/0.x) and still maintained, the website is: https://vuepress.vuejs.org.
 
-## Todo Features
+## Install
 
-VuePress is still a work in progress. There are a few things that it currently does not support but are planned:
+```bash
+yarn add vuepress -D       # Install 0.x
+yarn add vuepress@next -D  # Install 1.x.
+```
 
-- Dropdown Items in Navbar
-- Multi-Language Support
-- Algolia DocSearch Integration
-- Blogging support
+## Showcase
 
-Contributions are welcome!
+Check out [Awesome Vuepress](https://github.com/ulivz/awesome-vuepress) to find awesome things related to VuePress 1.x .
+
+## Development
+
+> Please make sure your version of Node.js is greater than 8.
+
+``` bash
+yarn dev  # serves VuePress' own docs with itself
+yarn test # make sure your code change pass the test
+```
+
+If you intend to make `"substantial"` changes to VuePress or its documentation, please checkout [VuePress RFCs](./rfcs/README.md).
 
 ## License
 
-MIT
+[MIT](https://github.com/vuejs/vuepress/blob/master/LICENSE)
